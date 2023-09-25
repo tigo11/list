@@ -37,8 +37,8 @@ func main() {
 	} else {
 		fmt.Println("Пусто")
 	}
-	l.RemoveAllByValue(11)
-	l.RemoveByValue(5)
+	l.RemoveAllByValue(8)
+	l.RemoveByValue(56)
 	values, ok = l.GetAll()
 	if ok {
 		fmt.Println("Элементы в листе после удаления по значению:", values)
@@ -47,8 +47,8 @@ func main() {
 	}
 
 	fmt.Println(l.GetByIndex(3))
-	fmt.Println(l.GetByValue(27))
-	fmt.Println(l.GetAllByValue(2))
+	fmt.Println(l.GetByValue(117))
+	fmt.Println(l.GetAllByValue(12))
 
 	fmt.Println("Вывод элементов листа:")
 	l.Print()
